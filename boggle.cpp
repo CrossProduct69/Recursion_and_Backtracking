@@ -17,6 +17,8 @@ using namespace std;
 
 const long long INF=1e18;
 
+// try to avoid usage of vector
+
 vector<int> pathRow={0, 0, 1, 1, -1, 1, -1, -1};
 vector<int> pathCol={ 1, -1, -1, 1, 1, 0, 0, -1 };
 
